@@ -1,0 +1,103 @@
+.hero_imgList img{
+    height: 120px;
+    width: 120px;
+    margin: 15px;
+}
+.ears{
+    display: flex;
+    align-items: center;
+}
+.earImg{
+    height: 600px;
+    width: 540px;
+    margin-right: 65px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.hero__text h1{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 23px;
+}
+.hero__text h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #A18A68;
+    margin-bottom: 60px;
+}
+
+.customer{
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+    margin-left: 30px;
+}
+.starNav{
+    display: flex;
+    margin-bottom: 40px;
+}
+.starNav img{
+    margin-right: 10px;
+}
+.hero__text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #707070;
+}
+.addToCart{
+    display: flex;
+    align-items: center;
+    height: 53px;
+    margin-top: 40px;
+}
+.add{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #efefef;
+    height: 55px;
+    width: 102px;
+    font-size: 16px;
+    color: #707070;
+    margin-right: 25px;
+}
+.add button{
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #707070;
+}
+.addBtn{
+    padding: 16px 100px;
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+.hero__icons {
+    display: flex;
+    margin: 70px 0 40px 0;
+    align-items: center;
+}
+.hero__icons img {
+    margin-right: 20px;
+    display: flex;
+}
+.like{
+    border-right: 1px solid #d8d8d8;
+    padding-right: 35px;
+}
+.btm{
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+}
+.btm span {
+    color: #000;
+}

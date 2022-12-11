@@ -1,0 +1,54 @@
+.navBar{
+    margin-top: 50px;
+    align-items: center;
+}
+.navBar__list::after{
+    align-items: center;
+    content: '';
+    display: block;
+    height: 17px;
+    width: 1px;
+    background-color: #707070;
+    /* margin:0 50px; */
+}
+.navBar{
+    align-items: center;
+
+}
+.Lists{
+    align-items: center;
+}
+.navBar__list_item{
+    margin-right: 55px;
+}
+.navBar__iconList_item{
+    margin-left: 55px;
+}
+.navBar__list_item a{
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+.header{
+    padding-bottom: 25px;
+    margin-bottom: 100px;
+    border-bottom: 1px solid #D8D8D8;
+}
+.navBar__iconList_item{
+    position: relative;
+}
+.span{
+    position: absolute;
+    background-color: #707070;
+    height: 19px;
+    width: 19px;
+    border-radius: 50%;
+    font-size: 14px;
+    bottom: 15px;
+    left: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+}
